@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-
 def print_fibonacci(length):
     if length <= 0:
         print("Length should be a positive integer.")
@@ -14,4 +12,5 @@ def print_fibonacci(length):
     print(fibonacci_sequence)
 
 # Example usage
-print_fibonacci(9)
+if __name__ == "__main__":
+    print_fibonacci(10)
